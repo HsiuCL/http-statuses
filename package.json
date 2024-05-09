@@ -1,0 +1,21 @@
+{
+  "name": "@hsiucl/status-codes",
+  "version": "1.0.1",
+  "description": "HTTP status codes and messages",
+  "exports": {
+    "./status-codes": "./dist/conversion-utils.js",
+    "./status-": "./dist/string-utils.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "HCJackyLee",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-jest": "^29.1.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.5"
+  }
+}
