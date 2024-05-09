@@ -1,21 +1,30 @@
 {
-  "name": "@hsiucl/status-codes",
-  "version": "1.0.1",
+  "name": "@hsiucl/http-statuses",
+  "version": "1.0.0",
   "description": "HTTP status codes and messages",
   "exports": {
-    "./status-codes": "./dist/conversion-utils.js",
-    "./status-": "./dist/string-utils.js"
+    "./codes": "./dist/codes.js",
+    "./messages": "./dist/messages.js",
+    "./statuses": "./dist/statuses.js"
   },
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "http",
+    "status",
+    "code",
+    "message",
+    "node",
+    "web",
+    "response",
+    "utility"
+  ],
   "author": "HCJackyLee",
   "license": "ISC",
   "devDependencies": {
     "ts-jest": "^29.1.2",
-    "tsc": "^2.0.4",
     "typescript": "^5.4.5"
   }
 }
