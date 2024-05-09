@@ -2,6 +2,11 @@
   "name": "@hsiucl/http-statuses",
   "version": "1.0.0",
   "description": "HTTP status codes and messages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HsiuCL/http-statuses.git"
+  },
+  "homepage": "https://github.com/HsiuCL/http-statuses",
   "exports": {
     "./codes": "./dist/codes.js",
     "./messages": "./dist/messages.js",
